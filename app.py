@@ -14,7 +14,7 @@ def index():
 def handler():
 	try: code = request.args["code"]
 	except: code = request.form["code"]
-	tv = WebOsClient('192.168.43.185')
+	tv = WebOsClient('IP')
 
 	if code.startswith("ch") and len(code) > 2:
 		channels = [i["channelId"] for i in tv.get_channels()]
