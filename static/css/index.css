@@ -1,0 +1,111 @@
+* {
+	font-family: "LG";
+}
+
+.remote {
+	background: #e0e0e0aa;
+	box-shadow: 0 0 8px #e0e0e0aa;
+
+	width: fit-content;
+	height: fit-content;
+	padding: 8px;
+	border-radius: 10px;
+
+	margin: auto;
+	position: absolute;
+	left: 0;right: 0;
+	top: 0;bottom: 0;
+}
+
+.input {
+	display: flex;
+}
+.LCD {
+	margin-top: auto;
+	margin-bottom: auto;
+	background: blue;
+	color: white;
+	width: 40%;
+	padding: 2px;
+	overflow: scroll;
+}
+.input-buttons {
+	margin-bottom: 3px;
+	margin-left: auto;
+	display: flex;
+}
+.enter-button , .clear-button {
+	padding: 0 2px 0 2px !important;
+	margin-right: 2px
+}
+
+.right {
+	margin-left: 18px;
+}
+
+.round-button {
+	height: fit-content;
+	width: fit-content;
+	border-radius: 50px;
+	box-shadow: 0 4px #999999e0;
+	border-color: transparent;
+	outline-color: transparent;
+	padding: 4px 8px 4px 8px;
+}
+.round-button:active {
+	border-color: transparent;
+	outline-color: transparent;
+	box-shadow: 0 2px #666666e0;
+	transform: translateY(4px);
+}
+.round-button:hover {
+	border-color: transparent;
+	outline-color: transparent;
+}
+
+.power {
+	background: red;
+	color: white;
+}
+.mute {
+	color: #212121;
+}
+
+.number {
+	padding: 8px;
+	border-radius: 8px;
+	margin-top: 5px;
+	border-color: transparent;
+	outline-color: transparent;
+	box-shadow: 0 4px #999999e0;
+}
+.number:active {
+	box-shadow: 0 2px #666666e0;
+	transform: translateY(4px);
+	border: transparent;
+	outline-color: transparent;
+}
+.number:hover {
+	border-color: transparent;
+	outline-color: transparent;
+}
+.zero {
+	width: 100%;
+	padding: 4px;
+}
+
+.bottom {
+	margin-top: 5px;
+}
+
+.volume-number {
+	margin-left: 7px;
+}
+.channel-number {
+	margin-left: 42px;
+}
+
+@font-face {
+	font-family: "LG";
+	src: url(../static/assets/font.ttf);
+}
